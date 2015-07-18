@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Netflix TV UI by Abhishek Pandya</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" /> 
+	<meta http-equiv="Content-language" content="en" />
+	<link rel="stylesheet" href="css/tv-interface.css" type="text/css" media="screen"/>
+</head>
+
+<body>
+
+<div id="wrapper">
+	<header id="header"></header>
+	<nav id="navigation" >
+		<ul>
+			<li class="navigable" data-href="movies/suggestions">Suggestions For You</li>
+			<li class="navigable" data-href="movies/recent">Recently Watched</li>
+			<li class="navigable" data-href="movies/new">New Arrivals</li>
+			<li class="navigable" data-href="movies/queue">Instant Queue</li>
+		</ul>
+	</nav>
+	
+	<section id="content" class=''>
+		<div id="movieInfo"><p>Movie title: </p><span>press Enter to close!.</span></div>
+		<h2 id="title"></h2>
+		
+		<ul id="grid">
+		</ul>
+		
+	</section>
+	
+</div>
+
+	<script type="text/javascript" src="js/CommonJSLite.js" ></script>
+	<script type="text/javascript" src="js/Promise.js" ></script>
+	<script type="text/javascript" src="js/Util.js" ></script>
+	<script type="text/javascript" src="js/Server.js" ></script>
+	<script type="text/javascript" src="js/Model.js" ></script>
+	<script type="text/javascript" src="js/Navigable.js" ></script>
+	<script type="text/javascript" src="js/MovieGridComponent.js" ></script>
+	<script type="text/javascript" src="js/NavigationComponent.js" ></script>
+	<script type="text/javascript" src="js/App.js" ></script>
+</body>
+</html>
